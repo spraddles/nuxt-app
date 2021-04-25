@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Navbar />
-      Welcome to our Home Page
+      Stay up to date
     </div>
   </div>
 </template>
