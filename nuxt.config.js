@@ -7,7 +7,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   // Nuxt uses 'vue-meta' https://vue-meta.nuxtjs.org
   // 2 header types: Global, Local
-  // options: title, htmlAttrs, headAttrs, bodyAttrs, style, script, noscript, meta
+  // options: <HTML>: htmlAttrs <HEAD>: title, meta, headAttrs <BODY>: bodyAttrs, style, script, noscript
   head: {
     title: 'My Nuxt app',
     htmlAttrs: {

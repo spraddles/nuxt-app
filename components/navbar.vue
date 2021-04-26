@@ -13,6 +13,7 @@
           <NuxtLink to="/about">About</NuxtLink>
           <NuxtLink to="/news">News</NuxtLink>
           <NuxtLink to="/custom">Custom</NuxtLink>
+          <NuxtLink to="/parent">Parent</NuxtLink>
         </b-navbar-nav>
 
       </b-collapse>

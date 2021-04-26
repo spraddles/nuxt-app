@@ -1,9 +1,10 @@
 # Readme
 
 The problem:  
-- Single Page Applications (SPA's) aren’t set up for SEO
+- Single Page Applications (SPA's) aren’t designed up for SEO
 - Vue JS is an SPA (single JavaScript file that populates a blank 'index.html' file)
-- Webcrawlers can't crawl SPA's
+- Webcrawlers can't crawl SPA's because they have no initial content
+- 
 
 
 
