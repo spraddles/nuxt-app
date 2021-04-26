@@ -1,14 +1,24 @@
 export default {
+
+  // Hosting type: https://nuxtjs.org/docs/2.x/features/deployment-targets
+  target: 'static', // This improves performance as well as SEO and better offline support
+  //target: 'server',  // default is 'server
+
   // Global page headers: https://go.nuxtjs.dev/config-head
+  // Nuxt uses 'vue-meta' https://vue-meta.nuxtjs.org
+  // 2 header types: Global, Local
+  // options: title, htmlAttrs, headAttrs, bodyAttrs, style, script, noscript, meta
   head: {
-    title: 'nuxt-app',
+    title: 'My Nuxt app',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'hid-description', name: 'hid-name', content: 'hid-content' },
+      { global_meta_1: 'global-description-1', name: 'global-name-1', content: 'global-content-1' },
+      { global_meta_2: 'global-description-2', name: 'global-name-2', content: 'global-content-2' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
