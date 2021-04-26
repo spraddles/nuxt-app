@@ -12,6 +12,7 @@
           <NuxtLink to="/">Home</NuxtLink>
           <NuxtLink to="/about">About</NuxtLink>
           <NuxtLink to="/news">News</NuxtLink>
+          <NuxtLink to="/custom">Custom</NuxtLink>
         </b-navbar-nav>
 
       </b-collapse>

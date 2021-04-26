@@ -27,10 +27,10 @@ $ npm run dev
 # build for production and launch server
 $ npm run build
 
-
 # start server (non-static)
 $ npm run start
 
 # generate static project
+# creates 'dist' folder with HTML / JS / CSS files
 $ npm run generate
 ```
