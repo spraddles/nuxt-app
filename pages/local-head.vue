@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Navbar />
-      Custom 'HEAD' meta (see inspect)
+      Custom local meta (see "HEAD" from inspect)
     </div>
   </div>
 </template>

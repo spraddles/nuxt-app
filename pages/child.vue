@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{user.username}}
+    {{user.info}}
   </div>
 </template>
 
@@ -10,7 +10,8 @@
     data() {
       return {
         user: {
-          username: 'This is from a child component',
+          info: 'this data is from a child component',
+          username: 'Username',
           lastname: 'Last Name',
           firstname: 'First Name'
         }

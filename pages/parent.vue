@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <Navbar />
-    <child/>
-
+    This is a parent page, but...
+    <child />
   </div>
 </template>
  
@@ -16,6 +16,7 @@ export default {
   data() {
     return {
       user: {
+        info: '',
         username: '',
         lastname: '',
         firstname: ''

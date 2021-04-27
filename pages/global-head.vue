@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Navbar />
-      Stay up to date
+      Custom global meta (see "HEAD" from inspect)
     </div>
   </div>
 </template>
