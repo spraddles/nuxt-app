@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="light" variant="">
-      <b-navbar-brand href="#">
+      <b-navbar-brand href="/">
         <img src="https://getbootstrap.com/docs/4.6/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -12,6 +12,7 @@
           <NuxtLink to="/local-head">Local_head</NuxtLink>
           <NuxtLink to="/parent">Parent_child</NuxtLink>
           <a href="/page-that-doesnt-exist">Redirect</a>
+          <NuxtLink to="/local-assets">Local_assets</NuxtLink>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -22,7 +23,7 @@
   export default {}
 </script>
 
-<style>
+<style scoped>
   .navbar { 
     background-color:#e9ecef; 
     margin-bottom: 20px;

@@ -49,14 +49,14 @@ export default {
 
   // from 'redirect-module': https://www.npmjs.com/package/@nuxtjs/redirect-module
   redirect: [
-    // Redirect options here
+    // Redirect options here (only server side! not static)
     { from: '^/page-that-doesnt-exist', to: '/secret-page', statusCode: 301 }
   ],
 
   // Middleware: https://nuxtjs.org/docs/2.x/components-glossary/pages-middleware
   // 2 types of middleware: serverMiddleware + middleware (client side)
   router: [
-    //middleware: 'custom-redirect'
+    // middleware: 'custom-redirect'
   ],
 
   serverMiddleware: [
