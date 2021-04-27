@@ -44,6 +44,23 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    '@nuxtjs/redirect-module'
+  ],
+
+  // from 'redirect-module': https://www.npmjs.com/package/@nuxtjs/redirect-module
+  redirect: [
+    // Redirect options here
+    { from: '^/page-that-doesnt-exist', to: '/secret-page', statusCode: 301 }
+  ],
+
+  // Middleware: https://nuxtjs.org/docs/2.x/components-glossary/pages-middleware
+  // 2 types of middleware: serverMiddleware + middleware (client side)
+  router: [
+    //middleware: 'custom-redirect'
+  ],
+
+  serverMiddleware: [
+    // Server-side redirects
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

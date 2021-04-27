@@ -35,3 +35,7 @@ $ npm run start
 # creates 'dist' folder with HTML / JS / CSS files
 $ npm run generate
 ```
+
+
+Note:
+The redirect module will not work in combination with nuxt generate. Redirects are realized through a server middleware, which can only react when there is a server running.

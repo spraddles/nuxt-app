@@ -11,6 +11,7 @@
           <NuxtLink to="/global-head">Global_head</NuxtLink>
           <NuxtLink to="/local-head">Local_head</NuxtLink>
           <NuxtLink to="/parent">Parent_child</NuxtLink>
+          <a href="/page-that-doesnt-exist">Redirect</a>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
