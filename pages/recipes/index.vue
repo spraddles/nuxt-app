@@ -16,9 +16,7 @@
             <img class="recipe-image" :src="recipe.image_url" />
             <div class="recipe-title">{{recipe.name}}</div>
             <div class="recipe-sub-title">{{recipe.type}}</div>
-            <div class="recipe-see-more">
-              <NuxtLink :to="'/recipes/' + recipe.slug">See more</NuxtLink>
-            </div>
+            <NuxtLink class="recipe-button" :to="'/recipes/' + recipe.slug">See more</NuxtLink>
           </b-col>
         </b-row>
       </div>
@@ -89,8 +87,12 @@
       background-color: #ff886b
       color: #fff
 
-    &.recipe-button
-      background-color: #dbe6dc
-      color: #005648
+  .recipe-button
+    border-radius: 50px
+    padding: 5px 10px
+    border: none
+    font-size: 13px
+    background-color: #dbe6dc
+    color: #005648
 
 </style>

@@ -20,9 +20,7 @@
   export default {}
 </script>
 
-<style scoped>
-  .navbar { 
-    background-color: #dbe6dc;
-  }
+<style scoped lang="sass">
+  .navbar
+    background-color: #dbe6dc
 </style>
-
