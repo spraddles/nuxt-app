@@ -14,6 +14,7 @@
           <a href="/page-that-doesnt-exist">Redirect</a>
           <NuxtLink to="/local-assets">Local_assets</NuxtLink>
           <NuxtLink to="/external-assets">External_assets</NuxtLink>
+          <NuxtLink to="/recipes">Recipes</NuxtLink>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Grass Fed Big Boppin'",
+    "type": "Beef Bowl",
+    "slug": "beef-bowl",
+    "image_url": "https://lyka.com.au/assets/img/content/our-food-page/recipes/optimized/tinified/beef-bowl.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Free Range Chow Chompin'",
+    "type": "Chicken Bowl",
+    "slug": "chicken-bowl",
+    "image_url": "https://lyka.com.au/assets/img/content/our-food-page/recipes/optimized/tinified/chicken-bowl.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Barn Raised Tail Tappin'",
+    "type": "Turkey Bowl",
+    "slug": "turkey-bowl",
+    "image_url": "https://lyka.com.au/assets/img/content/our-food-page/recipes/optimized/tinified/turkey-bowl.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Grass Fed Lip Lickin'",
+    "type": "Lamb Bowl",
+    "slug": "lamb-bowl",
+    "image_url": "https://lyka.com.au/assets/img/content/our-food-page/recipes/optimized/tinified/lamb-bowl.jpg"
+  }
+]

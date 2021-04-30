@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "analyze": "nuxt build --analyze"
   },
   "dependencies": {
     "@nuxtjs/redirect-module": "^0.3.1",
@@ -15,5 +16,9 @@
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "fibers": "^5.0.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^10.1.1"
+  }
 }
